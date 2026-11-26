@@ -1,0 +1,27 @@
+# Maxfiy sozlamalar (parollar, kalitlar)
+.env
+.env.*
+!.env.example
+
+# Claude'ning shu kompyuterga xos sozlamalari
+.claude/settings.local.json
+.claude/launch.json
+
+# Node.js (kelajakda kerak bo'lsa)
+node_modules/
+npm-debug.log*
+
+# Tizim fayllari
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Muharrir fayllari
+.vscode/
+.idea/
+*.swp
+
+# Loglar va vaqtinchalik fayllar
+*.log
+*.tmp
+dist/

@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Botir Jahongirov — UI/UX dizayner</title>
+  <meta name="description" content="Botir Jahongirov — Toshkentlik UI/UX dizayner. Veb-saytlar, mobil ilovalar va brending dizayni." />
+  <meta name="theme-color" content="#070a14" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="grain" aria-hidden="true"></div>
+
+  <!-- NAV -->
+  <header class="nav" id="nav">
+    <div class="container nav__inner">
+      <a href="#top" class="logo">BJ<span>.</span></a>
+      <nav class="nav__links" id="navLinks">
+        <a href="#works">Ishlar</a>
+        <a href="#services">Xizmatlar</a>
+        <a href="#about">Men haqimda</a>
+        <a href="#contact">Aloqa</a>
+      </nav>
+      <a href="#contact" class="btn btn--small nav__cta">Bog'lanish</a>
+      <button class="burger" id="burger" aria-label="Menyuni ochish" aria-expanded="false">
+        <span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main id="top">
+    <!-- HERO -->
+    <section class="hero">
+      <div class="hero__glow" aria-hidden="true"></div>
+      <div class="container">
+        <p class="status reveal"><span class="dot"></span> Frilans va to'liq stavkadagi ishlarga ochiqman</p>
+        <h1 class="hero__title reveal">
+          Botir<br />
+          <span class="outline">Jahongirov</span>
+        </h1>
+        <div class="hero__bottom">
+          <p class="hero__lead reveal">
+            <strong>UI/UX dizayner.</strong> Biznesingiz uchun chiroyli, tushunarli
+            va natija beradigan veb-saytlar hamda ilovalar dizaynini yarataman.
+          </p>
+          <div class="hero__actions reveal">
+            <a href="#works" class="btn">Ishlarni ko'rish <span class="arrow">↓</span></a>
+            <a href="https://www.behance.net/botirjahongirov" target="_blank" rel="noopener" class="btn btn--ghost">Behance ↗</a>
+          </div>
+        </div>
+        <div class="hero__meta reveal">
+          <span>📍 Toshkent, O'zbekiston</span>
+          <span>UI/UX · Web · Branding</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- MARQUEE -->
+    <div class="marquee" aria-hidden="true">
+      <div class="marquee__track">
+        <span>UI/UX dizayn</span><i>✦</i><span>Veb-saytlar</span><i>✦</i><span>Mobil ilovalar</span><i>✦</i>
+        <span>Brending</span><i>✦</i><span>Prototiplash</span><i>✦</i><span>Infografika</span><i>✦</i>
+        <span>UI/UX dizayn</span><i>✦</i><span>Veb-saytlar</span><i>✦</i><span>Mobil ilovalar</span><i>✦</i>
+        <span>Brending</span><i>✦</i><span>Prototiplash</span><i>✦</i><span>Infografika</span><i>✦</i>
+      </div>
+    </div>
+
+    <!-- STATS -->
+    <section class="stats container">
+      <div class="stat reveal"><b data-count="12">0</b><span>+ loyiha Behance'da</span></div>
+      <div class="stat reveal"><b data-count="740">0</b><span>+ baho (appreciation)</span></div>
+      <div class="stat reveal"><b data-count="8">0</b><span>k+ ko'rishlar</span></div>
+      <div class="stat reveal"><b data-count="6">0</b><span>+ turli soha</span></div>
+    </section>
+
+    <!-- WORKS -->
+    <section class="section" id="works">
+      <div class="container">
+        <div class="section__head">
+          <p class="eyebrow reveal">01 — Tanlangan ishlar</p>
+          <h2 class="section__title reveal">Loyihalarim</h2>
+        </div>
+
+        <div class="filters reveal" role="tablist">
+          <button class="filter is-active" data-filter="all">Barchasi</button>
+          <button class="filter" data-filter="web">Veb-saytlar</button>
+          <button class="filter" data-filter="product">Ilova va platformalar</button>
+          <button class="filter" data-filter="graphic">Grafik dizayn</button>
+        </div>
+
+        <div class="works" id="worksGrid">
+          <!-- JS orqali to'ldiriladi -->
+        </div>
+
+        <div class="works__more reveal">
+          <a href="https://www.behance.net/botirjahongirov" target="_blank" rel="noopener" class="btn btn--ghost">Barcha ishlar Behance'da ↗</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- SERVICES -->
+    <section class="section section--alt" id="services">
+      <div class="container">
+        <div class="section__head">
+          <p class="eyebrow reveal">02 — Xizmatlar</p>
+          <h2 class="section__title reveal">Nima qila olaman</h2>
+        </div>
+        <div class="services">
+          <article class="service reveal">
+            <span class="service__num">01</span>
+            <h3>Veb-sayt dizayni</h3>
+            <p>Landing sahifalar, korporativ saytlar va internet-do'konlar. Har qanday ekranga moslashuvchan.</p>
+          </article>
+          <article class="service reveal">
+            <span class="service__num">02</span>
+            <h3>Ilova va platforma UI/UX</h3>
+            <p>Mobil ilovalar, dashboardlar va SaaS platformalar uchun qulay foydalanuvchi tajribasi.</p>
+          </article>
+          <article class="service reveal">
+            <span class="service__num">03</span>
+            <h3>Brending</h3>
+            <p>Logotip, rang palitrasi, shriftlar va brend uslubi — kompaniyangizning yagona qiyofasi.</p>
+          </article>
+          <article class="service reveal">
+            <span class="service__num">04</span>
+            <h3>SMM va infografika</h3>
+            <p>Ijtimoiy tarmoqlar uchun postlar, bannerlar va ma'lumotlarni vizual tushuntiruvchi infografikalar.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROCESS -->
+    <section class="section" id="process">
+      <div class="container">
+        <div class="section__head">
+          <p class="eyebrow reveal">03 — Jarayon</p>
+          <h2 class="section__title reveal">Qanday ishlayman</h2>
+        </div>
+        <ol class="process">
+          <li class="reveal"><b>Tanishuv</b><span>Maqsad, auditoriya va raqobatchilarni o'rganamiz.</span></li>
+          <li class="reveal"><b>Struktura</b><span>Sahifalar xaritasi va wireframe'lar tayyorlanadi.</span></li>
+          <li class="reveal"><b>Dizayn</b><span>Vizual uslub va to'liq interfeys Figma'da chiziladi.</span></li>
+          <li class="reveal"><b>Topshirish</b><span>Prototip, dizayn-tizim va dasturchilar uchun tayyor fayllar.</span></li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section class="section section--alt" id="about">
+      <div class="container about">
+        <div class="about__left">
+          <p class="eyebrow reveal">04 — Men haqimda</p>
+          <h2 class="section__title reveal">Salom, men Botir 👋</h2>
+        </div>
+        <div class="about__right">
+          <p class="reveal">
+            Men Toshkentda yashovchi UI/UX dizaynerman. Logistika, tibbiyot, ta'lim, ko'chmas mulk,
+            moliya va fitnes kabi turli sohalardagi kompaniyalar uchun veb-saytlar va raqamli mahsulotlar dizaynini yaratganman.
+          </p>
+          <p class="reveal">
+            Men uchun yaxshi dizayn — bu faqat chiroyli ko'rinish emas, balki foydalanuvchi uchun oson,
+            biznes uchun esa foydali yechim. Har bir loyihaga shu tamoyil bilan yondashaman.
+          </p>
+          <div class="tools reveal">
+            <span>Figma</span><span>Adobe Photoshop</span><span>Adobe Illustrator</span><span>Prototyping</span><span>Design Systems</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="contact" id="contact">
+      <div class="container">
+        <p class="eyebrow reveal">05 — Aloqa</p>
+        <h2 class="contact__title reveal">Keling, birga<br /><span class="accent">ajoyib narsa</span> yaratamiz</h2>
+        <div class="contact__links reveal">
+          <a href="https://www.behance.net/botirjahongirov" target="_blank" rel="noopener" class="contact__link">
+            <span>Behance</span><b>botirjahongirov ↗</b>
+          </a>
+          <a href="https://jdesign.uz" target="_blank" rel="noopener" class="contact__link">
+            <span>Veb-sayt</span><b>jdesign.uz ↗</b>
+          </a>
+          <!-- TODO: Telegram username'ingizni qo'ying -->
+          <a href="https://t.me/" target="_blank" rel="noopener" class="contact__link">
+            <span>Telegram</span><b>@username ↗</b>
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__inner">
+      <span>© <span id="year"></span> Botir Jahongirov</span>
+      <a href="#top">Yuqoriga ↑</a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
